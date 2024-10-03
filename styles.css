@@ -47,20 +47,19 @@ input[type="color"]{
     width: calc(90% - 260px);
     border-radius: 4px;
     display: block;
-
 }
 
 
 input[type="range"]{
     width: calc(100% - 25px);
     margin-bottom: 10px;
-
 }
 
 
 input[type="checkbox"]{
     margin-right: 5px;
 }
+
 input[type="file"],
 input[type="radio"]{
     margin-top: 10px;
@@ -69,6 +68,7 @@ input[type="radio"]{
 input[type="radio"]{
     align-items: last baseline;
 }
+
 button{
     width: 70px;
     padding: 10px;
