@@ -18,10 +18,9 @@ form{
 
 label{
     font-weight: bold;
-    display: block;
     margin: 10px 0 5px 0;
-
 }
+
 
 input[type="text"],
 input[type="password"],
@@ -40,13 +39,14 @@ textarea{
     color: #0d638e;
     font-size: medium;
     width: calc(100% - 25px);
-
+    display: block;
 }
+
 input[type="color"]{
     border: white;
     width: calc(90% - 260px);
     border-radius: 4px;
-
+    display: block;
 
 }
 
@@ -57,14 +57,18 @@ input[type="range"]{
 
 }
 
-input[type="checkbox"],
-input[type="radio"]{
+
+input[type="checkbox"]{
     margin-right: 5px;
 }
-input[type="file"]{
+input[type="file"],
+input[type="radio"]{
     margin-top: 10px;
 }
 
+input[type="radio"]{
+    align-items: last baseline;
+}
 button{
     width: 70px;
     padding: 10px;
